@@ -1,0 +1,12 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: greenyellow;
+    padding: 3rem 5rem;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    body {width: 50%;}
+    h1 {font-size: .8rem; padding: 1rem;}
+}
